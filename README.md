@@ -28,12 +28,12 @@ Confluent-Kafka -> To connect to EventHub using Kafka protocol
 
 **To Deploy to Azure**
 1. Build the container and publish to Azure Container Registry (ACR)
-    docker build -t <<<ACRName>>>.azurecr.io/<<<RepoName>>>:<<<Tag>>> .
+    docker build -t <<**ACRName**>>.azurecr.io/<<**RepoName**>>:<<**Tag**>> .
   
     az login
-    az acr login <<<ACRName>>>
+    az acr login <<**ACRName**>>
   
-   docker push <<<ACRName>>>.azurecr.io/<<<RepoName>>>:<<<Tag>>> 
+   docker push <<**ACRName**>>.azurecr.io/<<**RepoName**>>:<<**Tag**>> 
   
 2. Configure azure function to deploy from ACR
   
