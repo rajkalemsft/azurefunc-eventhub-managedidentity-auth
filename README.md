@@ -1,4 +1,4 @@
-# azure-func-mi-auth
+# Azure Function Managed Identity Auth for Event Hub
 [![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://azurefunc-eventhub-managedidentity-auth.remote-containers/cloneInVolume?https://github.com/rajkalemsft/azurefunc-eventhub-managedidentity-auth)
 
 Sample Azure Function to demonstrate ability to connect to Azure EventHub with Kafka protocol. Provides way to use client credentials Vs managed identity auth.
