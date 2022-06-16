@@ -17,16 +17,16 @@ Confluent-Kafka -> To connect to EventHub using Kafka protocol
 **To get going**, add below configurations to your local.settings.json or azure function configurations,
 
     "AZURE_AUTHORITY_HOST":"login.microsoftonline.com",
-    "AZURE_CLIENT_ID":"<<AppClientIdForClientCredsAuthFlow>>",
-    "AZURE_CLIENT_SECRET":"<<AppSecretForClientCredsAuthFlow>>",
+    "AZURE_CLIENT_ID":"<<AppClientIdForClientCredsAuthFlow-NotRequiredForManagedIdentityAuth>>",
+    "AZURE_CLIENT_SECRET":"<<AppSecretForClientCredsAuthFlow-NotRequiredForManagedIdentityAuth>>",
     "AZURE_TENANT_ID":"<<TenantID>>",
     "EVENT_HUB_HOSTNAME":"<<EVentHubNameSpace>>",
     "EVENT_HUB_NAME":"<<EventHubName>>",
     "CONSUMER_GROUP":"<<EventHubConsumerGroupName-Typically $Default>>"
     
-To test, execute azure function locally. 
+**To test locally**, execute azure function with azure func cli command func start on terminal window. 
 
-**Deploy**
+**To Deploy to Azure**
 1. Build the container and publish to Azure Container Registry (ACR)
     docker build -t <<ACRName>>.azurecr.io/<<RepoName>>:<<Tag>> .
   
