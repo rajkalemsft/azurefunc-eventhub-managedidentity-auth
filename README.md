@@ -1,4 +1,5 @@
 # azure-func-mi-auth
+[![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://azurefunc-eventhub-managedidentity-auth.remote-containers/cloneInVolume?https://github.com/rajkalemsft/azurefunc-eventhub-managedidentity-auth)
 
 Sample Azure Function to connect to Azure EventHub with Kafka protocol.
 
@@ -8,7 +9,7 @@ Sample Azure Function to connect to Azure EventHub with Kafka protocol.
 3. Has docker image definition to build the image
 
 **Sample relies on below packages**,
-Azure.Identity -> For Azure AD AUTH
+Azure.Identity -> For Azure AD AUTH. Please refer defaultazurecredential(https://docs.microsoft.com/en-us/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet)
 Confluent-Kafka -> To connect to EventHub using Kafka protocol
 
 **To get going**, add below configurations to your local.settings.json or azure function configurations,
