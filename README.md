@@ -9,7 +9,9 @@ Sample Azure Function to demonstrate ability to connect to Azure EventHub with K
 3. Has docker image definition to build the image
 
 **Sample relies on below packages**,
+
 Azure.Identity -> For Azure AD AUTH. Please refer defaultazurecredential(https://docs.microsoft.com/en-us/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet)
+
 Confluent-Kafka -> To connect to EventHub using Kafka protocol
 
 **To get going**, add below configurations to your local.settings.json or azure function configurations,
