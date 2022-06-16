@@ -10,7 +10,7 @@ Sample Azure Function to demonstrate ability to connect to Azure EventHub with K
 
 **Sample relies on below packages**,
 
-Azure.Identity -> For Azure AD AUTH. Please refer defaultazurecredential[(https://docs.microsoft.com/en-us/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet)]
+Azure.Identity -> For Azure AD AUTH. Please refer [defaultazurecredential](https://docs.microsoft.com/en-us/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet)
 
 Confluent-Kafka -> To connect to EventHub using Kafka protocol
 
